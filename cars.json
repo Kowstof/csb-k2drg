@@ -1,0 +1,41 @@
+[
+  {
+    "category": "sedan",
+    "availability": "Y",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2019,
+    "mileage": 24500,
+    "fuel": "Hybrid",
+    "seats": 5,
+    "price": 120.0,
+    "image": "camry.jpg",
+    "description": "Powered by the latest hybrid engine technology, this practical Camry offers the perfect city driving experience."
+  },
+  {
+    "category": "sedan",
+    "availability": "Y",
+    "make": "BMW",
+    "model": "320i",
+    "year": 2012,
+    "mileage": 70234,
+    "fuel": "Petrol",
+    "seats": 5,
+    "price": 150,
+    "image": "320i.jpg",
+    "description": "Striking design, a turbocharged engine, and a luxurious, comfortable interior. What more could you want?"
+  },
+  {
+    "category": "sedan",
+    "availability": "Y",
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2017,
+    "mileage": 65856,
+    "fuel": "Petrol",
+    "seats": 5,
+    "price": 100,
+    "image": "civic.jpg",
+    "description": "A sensible sedan drowning in safety features that has everything you need, and a couple well-designed surprises."
+  }
+]

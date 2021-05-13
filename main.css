@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Arkhip";
+  src: url("font/Arkhip-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("font/regular.otf") format("opentype");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("font/bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: regularl;
+}
+
+* {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  padding: 20px 30px;
+}
+
+#logo {
+  color: white;
+  font-family: "Arkhip", sans-serif;
+}
+
+#view-res-btn {
+  box-sizing: content-box;
+  background: linear-gradient(to right, black 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  font-size: 1rem;
+  transition: 0.1s ease-in-out;
+  padding: 7px 15px;
+}
+
+#view-res-btn:hover {
+  cursor: pointer;
+  background-position: right bottom;
+  transition: 0.2s ease-in-out;
+  color: black;
+}
+
+main {
+  display: grid;
+  background: #fff;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 40px 20px;
+}
+
+.car {
+  margin: 20px;
+  text-align: center;
+  padding: 50px;
+  background: #ffffff;
+  box-shadow: 20px 20px 80px #bdbdbd, -20px -20px 60px #ffffff;
+}
+
+.car-img {
+  width: 100%;
+}
+
+.car-details {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.car-detail {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.middle-detail {
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+
+.car-detail img {
+  height: 30px;
+}
+
+.needs-space {
+  margin: 0 7px;
+}
+
+.car-description {
+  margin: 10px 0;
+}
+
+.car-price {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.reserve-car {
+  border: 3px solid black;
+  padding: 15px 60px;
+  margin: 10px 0;
+  background: linear-gradient(to right, white 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  font-weight: bold;
+  transition: ease-in-out 0.1s;
+  font-size: 1.2rem;
+}
+
+.reserve-car:hover {
+  cursor: pointer;
+  color: white;
+  background-position: right bottom;
+  transition: ease-in-out 0.2s;
+}
